@@ -1,7 +1,7 @@
 ---
 layout: slides
-title: Rrpoducible Research
-author: Fabio CRUZ
+title: PPT
+author: Fabio
 permalink: "/PPT/"
 image-path: "/assets/images/3-projects/gf/presentation/"
 description: A presentation slide for how to use reveal.js in Jekyll
