@@ -1,18 +1,19 @@
 ---
-layout: home
+title: Reproducible Research module
+layout: single
 ---
 
 
-# Welcome to the Research 
+## Description
 
-Goal of this season
+One of the main principles of the scientific research is related to its reproducible quality.
+Goal of this courser
 
 - [X] Understand the importance of replication principle of the research
-
 - [X] Create a dynamic document
 
 
-{% include toc.html html=content %}
+
 
 
 
