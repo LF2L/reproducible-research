@@ -2,9 +2,8 @@
 layout: single
 title: Workshop
 permalink: /workshop/
-toc: true
-toc_label: "Workshop content"
-toc_icon: "cog"
+sidebar:
+  nav: "Workshop"
 ---
 
 # Background
@@ -12,7 +11,7 @@ toc_icon: "cog"
 In the last session of **Introduction to research module** you already have explored the following elements:
 
 1. Search on scientific databases
-2. Make a first visualization of using VOSviewer tool.s
+2. Make a first visualization of using VOSviewer tool.
 2. Put in place a *Experimental protocol* for UX test of a website.
 3. You already know the structure of an scientific paper:
     + Abstract
@@ -26,7 +25,9 @@ In the last session of **Introduction to research module** you already have expl
 
 ## Goal of this workshop
 
-> Create a scientific paper for a systematic literature review analysis  with the principles of **Reproducible Research** 
+This module intends to compile everything in order to:
+
+> Create a scientific paper using  with the principles of **Reproducible Research** 
 > 
 
 
@@ -35,25 +36,23 @@ For doing that, we are going to tackle thre main objectifs:
 2. Create an article using reproducible research approach with main sections and references.
 3. Analyse a bibliomtrical analysis and explain the under the corelation with
 
-:
-Ce travail est à déposer sur ARCHE dans le lien « rendu TD4 – abstract et plan »
-Attention ! date limite de dépôt 18/Janvier/2018 – 23h00
 
-M. CAMARGO et G. ARBELAEZ
+{% capture notice-text %}
+The result sof this workshop to put in the ARCHE platform are: 
+
+* PDF article with the analysis 
+* A .ZIP document with a explained script (.rmd), the data used.
+* Presentation of the main results (Using Rcloud)
+**Deadline:** January 21 -- 23h:00.
+{% endcapture %}
+
+<div class="notice--danger">
+  <b>Attention:</b>
+
+  {{ notice-text | markdownify }}
+</div>
 
 
-
-
-
-This time, the pdf need to improve
-
-
-- Rendu sur ARCHE TD4 :
-- PDF with the final document
-- Creation of presentation with the main findings
-- Commented script
-
-The result of this TD4 needs to be put it in the ARCHE platfform. **Before 23h00 !**
 
 
 # Test 1: Create an first on Rcloud

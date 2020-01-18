@@ -10,3 +10,15 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+
+Workshop:
+  - title: "Workshop"
+    url: /workshop/
+    children:
+      - title: "Activity 1"
+        url: /workshop-1/
+      - title: "Activity 2"
+        url: /  
+      - title: "Activity 3"
+        url: /
