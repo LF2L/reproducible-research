@@ -2,7 +2,7 @@
 layout: slides
 title: PPT
 author: Fabio
-permalink: "/presentation/"
+permalink: "/PPT/"
 image-path: "/assets/figures/"
 description: A presentation slide for how to use reveal.js in Jekyll
 theme: white

@@ -370,6 +370,11 @@ summary {
 
 <div id="how-do-you-develop-the-analysis-so-that-you-can-communicate-to-someone-what-was-done" class="section level1">
 <h1>how do you develop the analysis so that you can communicate to someone what was done?</h1>
+<pre class="r"><code>library(fivethirtyeight)
+library(tidyverse)</code></pre>
+<p>The dataset contains information on 1794 movies released between 1970 and 2013. However we’ll focus our analysis on movies released between 1990 and 2013.</p>
+<pre class="r"><code>bechdel90_13 &lt;- bechdel %&gt;% 
+  filter(between(year, 1990, 2013))</code></pre>
 <div id="excel.." class="section level2">
 <h2>Excel..</h2>
 <p><a href="Figures/intro/excel-chaos.jpg">excel choas</a></p>

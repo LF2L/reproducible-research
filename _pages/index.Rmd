@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Reproducible research"
 author: "Fabio CRUZ"
 permalink: "/PPT-2/"
@@ -27,6 +28,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 #  how do you develop the analysis so that you can communicate to someone what was done?
+
+```{r load-packages, message=FALSE}
+library(fivethirtyeight)
+library(tidyverse)
+```
+
+
+The dataset contains information on `r nrow(bechdel)` movies released between `r min(bechdel$year)` and `r max(bechdel$year)`. However we'll focus our analysis on movies released between 1990 and 2013.
+
+```{r}
+bechdel90_13 <- bechdel %>% 
+  filter(between(year, 1990, 2013))
+```
+
+
 
 
 ## Excel..

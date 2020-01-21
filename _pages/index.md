@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Reproducible research"
 author: "Fabio CRUZ"
 permalink: "/PPT-2/"
@@ -25,6 +26,23 @@ output:
 
 
 #  how do you develop the analysis so that you can communicate to someone what was done?
+
+
+```r
+library(fivethirtyeight)
+library(tidyverse)
+```
+
+
+The dataset contains information on 1794 movies released between 1970 and 2013. However we'll focus our analysis on movies released between 1990 and 2013.
+
+
+```r
+bechdel90_13 <- bechdel %>% 
+  filter(between(year, 1990, 2013))
+```
+
+
 
 
 ## Excel..
