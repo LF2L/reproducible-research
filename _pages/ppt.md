@@ -3,7 +3,7 @@ layout: slides
 title: PPT
 author: Fabio
 permalink: "/PPT/"
-image-path: "/assets/images/3-projects/gf/presentation/"
+image-path: "/assets/figures/"
 description: A presentation slide for how to use reveal.js in Jekyll
 theme: white
 transition: slide
@@ -29,52 +29,98 @@ transition: slide
 - Giovanny Arbelaez
 - Mauricio Camargo
 
+<div class="cf"></div>
+
+<img height="400px" class="plain" src="{{ site.baseurl | append:page.image-path | append: 'Phd-comics.gif' }}">
+
+
+
 
 Ecole Génie des Systèmes et de l'Innovation (ENSGSI) - Équipe de Recherche sur les Processus Innovatifs (ERPI)
 
 <img height="100px" class="plain" src="https://erpi.univ-lorraine.fr/assets/images/logo-ERPI.svg">
 
 
-<img height="50px" class="plain" src="{{ site.baseurl | append:page.image-path | append: 'logos/UL-LF2L.png' }}">
+
 ---
 
 # Main goal
 
 - Understand the importance of *replication principle* of the research
-- Create a dynamic document
+- Create a first dynamic document using the Literate programming approach
+
+
+---
+## Music Vs. Research
+
+<div class="container">
+  <div class="col">
+    <img height="600px" class="plain" src="{{ site.baseurl | append:page.image-path | append: 'Musica.jpeg' }}">
+
+  </div>
+
+<div class="col">
+  <img height="600px" class="plain" src="{{ site.baseurl | append:page.image-path | append: 'Paper.png' }}">
+</div>
+
+</div>
+
+---
+
+# The paper Pipeline
+
+<img height="120%" class="plain" src="{{ site.baseurl | append:page.image-path | append: 'Article-pipeline-1.png' }}">
 
 
 
 ---
-## Music and Research
+
+# The paper Pipeline
 
 
+<img height="120%" class="plain" src="{{ site.baseurl | append:page.image-path | append: 'Article-pipeline-2.png' }}">
 
+Describe in detail this section...
 
 ---
+
 ## Replication Vs. Reproducibility
 
+<div class="container">
+  <div class="col">
+    
+**Replication** focuses on the validity of the scientific claim.
 
-- **Replication** focuses on the validity of the scientific claim.
 - "Is this claim true?"
-
 - Important for policymakers and regulatory decisions
 
----
 
+    <img height="300px" class="plain" src="{{ site.baseurl | append:page.image-path | append: 'Musica.jpeg' }}">
+
+  </div>
+
+<div class="col">
+
+**Reproducibility**  refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original researcher (Goodman, Fanelli, and Ioannidis 2016).
+
+- Focuses on the validity of the data analysis
+- *"Can we trust this analysis?"*
+
+
+<img height="300px" class="plain" src="{{ site.baseurl | append:page.image-path | append: 'Paper.png' }}">
+</div>
+
+</div>
+
+
+
+---
 ## Replication Vs. Reproducibility
 
-- **Reproducibility**  refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original researcher (Goodman, Fanelli, and Ioannidis 2016).
+Two key principles: 
 
-- Focuses on the validity of the data analysis --- *"Can we trust this analysis?"*
-
-
----
-## Replication Vs. Reproducibility
-
- Two key principles: 
- - Literate programming for enabling reproducibilty
- - Version control for enhancing transparency
+- Literate programming for enabling reproducibilty
+- Version control for enhancing transparency
 
 
 ---
@@ -87,29 +133,38 @@ Ecole Génie des Systèmes et de l'Innovation (ENSGSI) - Équipe de Recherche su
 
 
 ---
-# Why do we need reproducible research?
+
+# Why do we need Reproducible Research?
+
+
+- 
+- Avoid misconduct such as fraudulent data and plagiarism
+
+- Data-intensive research (e.g Big data research)
+
+
+
+
 
 
 
 
 ---
-# The paper Pipeline
 
+# Who use  Reproducible Research?
 
+**Authors**
 
+-  Want to make their research reproducible.
+-  Want tools for RR to make their lives easier (or at least not much harder)
 
----
+**Readers** 
 
-# Why Reproducible Research is it important?
-
+- Want to reproduce (and perhaps expand upon) interesting findings
+- Want tools for RR to make their lives easier
 
 
 --- 
-# Concept and Ideas
-
-
-
---
 
 
 # Summary
