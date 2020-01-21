@@ -16,6 +16,13 @@ transition: slide
 .col{
     flex: 1;
 }
+
+.reveal {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  color: #222; }
+
 </style>
 
 <section data-markdown data-separator="---">
@@ -134,7 +141,7 @@ Two key principles:
 
 ---
 
-# Why do we need Reproducible Research?
+## Why do we need Reproducible Research?
 
 
 - 
