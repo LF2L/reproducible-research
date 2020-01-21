@@ -74,6 +74,22 @@ Ecole Génie des Systèmes et de l'Innovation (ENSGSI) - Équipe de Recherche su
 
 ---
 
+
+
+## Why do we need Reproducible Research?
+
+- Avoid misconduct such as fraudulent data and plagiarism
+
+- Data-intensive research (e.g Big data research)
+
+
+
+
+
+
+---
+
+
 # The paper Pipeline
 
 <img height="120%" class="plain" src="{{ site.baseurl | append:page.image-path | append: 'Article-pipeline-1.png' }}">
@@ -137,21 +153,6 @@ Two key principles:
 
 
 <small> Schulte, Eric, Dan Davison, Thomas Dye, and Carsten Dominik. 2012. “A Multi-Language Computing Environment for Literate Programming and Reproducible Research.” Journal of Statistical Software 46 (1): 1–24. https://doi.org/10.18637/jss.v046.i03.</small
-
-
----
-
-## Why do we need Reproducible Research?
-
-
-- 
-- Avoid misconduct such as fraudulent data and plagiarism
-
-- Data-intensive research (e.g Big data research)
-
-
-
-
 
 
 
