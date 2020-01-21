@@ -2,7 +2,7 @@
 layout: slides
 title: PPT
 author: Fabio
-permalink: "/PPT/"
+permalink: "/presentation/"
 image-path: "/assets/figures/"
 description: A presentation slide for how to use reveal.js in Jekyll
 theme: white
@@ -74,22 +74,6 @@ Ecole Génie des Systèmes et de l'Innovation (ENSGSI) - Équipe de Recherche su
 
 ---
 
-
-
-## Why do we need Reproducible Research?
-
-- Avoid misconduct such as fraudulent data and plagiarism
-
-- Data-intensive research (e.g Big data research)
-
-
-
-
-
-
----
-
-
 # The paper Pipeline
 
 <img height="120%" class="plain" src="{{ site.baseurl | append:page.image-path | append: 'Article-pipeline-1.png' }}">
@@ -134,6 +118,20 @@ Describe in detail this section...
 </div>
 
 </div>
+
+---
+
+
+## Why do we need Reproducible Research?
+
+- Avoid misconduct such as fraudulent data and plagiarism
+
+- Data-intensive research (e.g Big data research)
+
+
+
+
+
 
 
 

@@ -21,9 +21,7 @@ output:
 
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 
 #  how do you develop the analysis so that you can communicate to someone what was done?

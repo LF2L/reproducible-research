@@ -53,11 +53,3 @@ The result sof this workshop to put in the ARCHE platform are:
 </div>
 
 
-
-
-# Test 1: Create an first on Rcloud
-
-## Creating an Rcloud account:
-
-
-

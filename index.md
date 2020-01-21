@@ -19,10 +19,20 @@ Why is *reproducibility* gaining attention? Four factors have lead to growing co
 
 
 
-Goal of this courser
-
+{% capture notice-text %}
 - [X] Understand the importance of replication principle of the research
 - [X] Create a dynamic document
+{% endcapture %}
+
+<div class="notice--danger">
+  <b>Goal of this course:</b>
+
+  {{ notice-text | markdownify }}
+</div>
+
+
+
+
 
 
 
