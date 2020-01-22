@@ -6,7 +6,7 @@ permalink: "/PPT/"
 image-path: "/assets/figures/"
 description: A presentation slide for how to use reveal.js in Jekyll
 theme: white
-transition: slide
+transition: none
 ---
 
 <style>
@@ -23,6 +23,18 @@ transition: slide
   font-weight: normal;
   color: #222; }
 
+
+.reveal p {
+    text-align: left;
+  }
+.reveal ul {
+    display: block;
+  }
+.reveal ol {
+    display: block;
+  }  
+
+
 </style>
 
 <section data-markdown data-separator="---">
@@ -32,21 +44,19 @@ transition: slide
 ## Reproducible Research module
 #### Innovation, Development & Research
 
-- Fabio A. Cruz Sanchez
-- Giovanny Arbelaez
-- Mauricio Camargo
+<img height="400px" class="plain" src="{{ site.baseurl | append:page.image-path | append: 'Phd-comics.gif' }}">
+
+##### Fabio A. Cruz Sanchez
+##### Giovanny Arbelaez
+##### Mauricio Camargo
 
 <div class="cf"></div>
 
-<img height="400px" class="plain" src="{{ site.baseurl | append:page.image-path | append: 'Phd-comics.gif' }}">
+Ecole Nationale Supérieur en Génie des Systèmes et de l'Innovation (ENSGSI) 
 
-
-
-
-Ecole Nationale Supérieur en Génie des Systèmes et de l'Innovation (ENSGSI) - Équipe de Recherche sur les Processus Innovatifs (ERPI)
+Équipe de Recherche sur les Processus Innovatifs (ERPI)
 
 <img height="100px" class="plain" src="https://erpi.univ-lorraine.fr/assets/images/logo-ERPI.svg">
-
 
 
 ---
@@ -91,31 +101,29 @@ Describe in detail this section...
 
 ---
 
-## Replication Vs. Reproducibility
+## Reproducibility and Replicability
 
-<div class="container">
-  <div class="col">
-    
-**Replication** focuses on the validity of scientific claims.
+**Reproducibility**: 
 
-- "Is this claim true?"
-- Important for policymakers and regulatory decisions
-
-
-    
-
-  </div>
-
-<div class="col">
-
-**Reproducibility**  refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original researcher (Goodman, Fanelli, and Ioannidis 2016).
+Refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original researcher (Goodman, Fanelli, and Ioannidis 2016).
 
 - Focuses on the validity of the data analysis
 - "Can we trust this analysis?"
 
 
+<small>- Goodman, Steven N., Daniele Fanelli, and John P. A. Ioannidis. 2016. “What Does Research Reproducibility Mean?” Science Translational Medicine 8 (341): 341ps12–341ps12. https://doi.org/10.1126/scitranslmed.aaf5027.
+</small>
 
-</div>
+---
+## Reproducibility and Replicability
+
+Replicability: 
+
+This is the act of repeating an entire study, independently of the original investigator without the use of original data (but generally using the same methods).
+
+
+- Important for policymakers and regulatory decisions
+
 
 ---
 
@@ -123,9 +131,8 @@ Describe in detail this section...
 ## Why do we need Reproducible Research?
 
 - Avoid misconduct such as fraudulent data and plagiarism
-
 - Data-intensive research (e.g Big data research)
-
+- Distributed research
 
 
 
@@ -151,21 +158,6 @@ Two key principles:
 <small> Schulte, Eric, Dan Davison, Thomas Dye, and Carsten Dominik. 2012. “A Multi-Language Computing Environment for Literate Programming and Reproducible Research.” Journal of Statistical Software 46 (1): 1–24. https://doi.org/10.18637/jss.v046.i03.</small
 
 
-
-
----
-
-# Who use  Reproducible Research?
-
-**Authors**
-
-    - Want to make their research reproducible
-    - Want tools for RR to make their lives easier (or at least not much harder)
-
-**Readers** 
-
-   - Want to reproduce (and perhaps expand upon) interesting findings
-   - Want tools for RR to make their lives easier
 
 
 --- 

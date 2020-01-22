@@ -84,6 +84,7 @@
         slideNumber: true,
 
 
+
         // Push each slide change to the browser history
         history: true,
 
@@ -118,7 +119,7 @@
         {%if page.transition %}
           transition: '{{page.transition}}',
         {% else %}
-          transition: 'slide', // none/fade/slide/convex/concave/zoom
+          transition: 'none', // none/fade/slide/convex/concave/zoom
         {% endif %}
 
         dependencies: [
