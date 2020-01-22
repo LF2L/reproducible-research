@@ -38,10 +38,10 @@ For doing that, we are going to see three main elements:
 
 
 {% capture notice-text %}
-The following results of this workshop should be updload to the ARCHE platform : 
+The following results of this workshop should be updload to the ARCHE platform: 
 
-1. A PDF article with the analysis (Activity 3)
-2. A .ZIP file with the used script in the data analysis (.rmd - with comments !) and the data used (if modified).
+1. A PDF article with the analysis done on each section
+2. A .ZIP file with the script used for the data analysis (.rmd - with comments !) and the data used (if modified).
  
 **Deadline:** January 23 -- 23h:00.
 {% endcapture %}
