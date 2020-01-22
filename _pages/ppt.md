@@ -102,7 +102,7 @@ Describe in detail this section...
 - Important for policymakers and regulatory decisions
 
 
-    <img height="300px" class="plain" src="{{ site.baseurl | append:page.image-path | append: 'Musica.jpeg' }}">
+    
 
   </div>
 
@@ -114,8 +114,6 @@ Describe in detail this section...
 - *"Can we trust this analysis?"*
 
 
-<img height="300px" class="plain" src="{{ site.baseurl | append:page.image-path | append: 'Paper.png' }}">
-</div>
 
 </div>
 

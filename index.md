@@ -18,10 +18,11 @@ Why is *reproducibility* gaining attention? Four factors have lead to growing co
 
 
 
+## Goal
 
 {% capture notice-text %}
 - [X] Understand the importance of replication principle of the research
-- [X] Create a dynamic document
+- [X] Create a first reproducible article
 {% endcapture %}
 
 <div class="notice--danger">
@@ -29,11 +30,6 @@ Why is *reproducibility* gaining attention? Four factors have lead to growing co
 
   {{ notice-text | markdownify }}
 </div>
-
-
-
-
-
 
 
 
@@ -47,5 +43,7 @@ Why is *reproducibility* gaining attention? Four factors have lead to growing co
 
 Recommended online books:
 
+- [R for Data Science](https://r4ds.had.co.nz/)
 - [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/pdf-document.html)
+
 

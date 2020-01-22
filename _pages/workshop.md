@@ -31,10 +31,10 @@ This module intends to compile everything in order to:
 > 
 
 
-For doing that, we are going to tackle thre main objectifs:
+For doing that, we are going to see three main elements:
 1. Learn the bases (R, Rmarkdown) languages.
 2. Create an article using reproducible research approach with main sections and references.
-3. Analyse a bibliomtrical analysis and explain the under the corelation with
+
 
 
 {% capture notice-text %}
@@ -42,8 +42,8 @@ The result sof this workshop to put in the ARCHE platform are:
 
 * PDF article with the analysis 
 * A .ZIP document with a explained script (.rmd), the data used.
-* Presentation of the main results (Using Rcloud)
-**Deadline:** January 21 -- 23h:00.
+* 
+**Deadline:** January 23 -- 23h:00.
 {% endcapture %}
 
 <div class="notice--danger">
