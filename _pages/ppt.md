@@ -111,7 +111,7 @@ Describe in detail this section...
 **Reproducibility**  refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original researcher (Goodman, Fanelli, and Ioannidis 2016).
 
 - Focuses on the validity of the data analysis
-- *"Can we trust this analysis?"*
+- "Can we trust this analysis?"
 
 
 
@@ -173,7 +173,7 @@ Two key principles:
 
 # Summary
 
-- Reproducible research is important as a **minimum standard**, partcularly for studies that are difficult to replicate
+- Reproducible research is important as a **minimum standard**, particularly for studies that are difficult to replicate
 - Infrastructure is needed for creating and distributing reproducible documents, beyond what is currently available
 - There is a growing number of tools for creating reproducible documents
 ---
