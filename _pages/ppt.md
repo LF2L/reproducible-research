@@ -43,7 +43,7 @@ transition: slide
 
 
 
-Ecole Génie des Systèmes et de l'Innovation (ENSGSI) - Équipe de Recherche sur les Processus Innovatifs (ERPI)
+Ecole Nationale Supérieur en Génie des Systèmes et de l'Innovation (ENSGSI) - Équipe de Recherche sur les Processus Innovatifs (ERPI)
 
 <img height="100px" class="plain" src="https://erpi.univ-lorraine.fr/assets/images/logo-ERPI.svg">
 
@@ -53,8 +53,8 @@ Ecole Génie des Systèmes et de l'Innovation (ENSGSI) - Équipe de Recherche su
 
 # Main goal
 
-- Understand the importance of *replication principle* of the research
-- Create a first dynamic document using the Literate programming approach
+- Understand the importance of the *replication principle* in research
+- Create a first dynamic document using a *Literate programming approach*
 
 
 ---
@@ -96,7 +96,7 @@ Describe in detail this section...
 <div class="container">
   <div class="col">
     
-**Replication** focuses on the validity of the scientific claim.
+**Replication** focuses on the validity of scientific claims.
 
 - "Is this claim true?"
 - Important for policymakers and regulatory decisions
@@ -111,7 +111,7 @@ Describe in detail this section...
 **Reproducibility**  refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original researcher (Goodman, Fanelli, and Ioannidis 2016).
 
 - Focuses on the validity of the data analysis
-- *"Can we trust this analysis?"*
+- "Can we trust this analysis?"
 
 
 
@@ -159,13 +159,13 @@ Two key principles:
 
 **Authors**
 
--  Want to make their research reproducible.
--  Want tools for RR to make their lives easier (or at least not much harder)
+    - Want to make their research reproducible
+    - Want tools for RR to make their lives easier (or at least not much harder)
 
 **Readers** 
 
-- Want to reproduce (and perhaps expand upon) interesting findings
-- Want tools for RR to make their lives easier
+   - Want to reproduce (and perhaps expand upon) interesting findings
+   - Want tools for RR to make their lives easier
 
 
 --- 
@@ -187,7 +187,7 @@ Two key principles:
 
 # Summary
 
-- Reproducible research is important as a **minimum standard**, partcularly for studies that are difficult to replicate
+- Reproducible research is important as a **minimum standard**, particularly for studies that are difficult to replicate
 - Infrastructure is needed for creating and distributing reproducible documents, beyond what is currently available
 - There is a growing number of tools for creating reproducible documents
 ---
