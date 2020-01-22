@@ -159,8 +159,8 @@ Two key principles:
 
 **Authors**
 
-   -  Want to make their research reproducible 
-   -  Want tools for RR to make their lives easier (or at least not much harder)
+    - Want to make their research reproducible
+    - Want tools for RR to make their lives easier (or at least not much harder)
 
 **Readers** 
 
