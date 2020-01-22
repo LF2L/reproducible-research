@@ -170,6 +170,20 @@ Two key principles:
 
 --- 
 
+### What is R/RStudio?
+
+- R is a statistical programming language
+- RStudio is a convenient interface for R (an integrated development environment, IDE)
+- At its simplest:<sup>➥</sup>
+- R is like a car’s engine
+ - RStudio is like a car’s dashboard
+
+<img width="100%" src="{{ site.baseurl | append:page.image-path | append: 'engine-dashboard.png' }}">
+
+➥ Source: [Modern Dive](https://moderndive.com/)
+
+
+---
 
 # Summary
 
