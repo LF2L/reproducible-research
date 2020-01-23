@@ -1,6 +1,5 @@
 Country;Capture;Aquaculture
 Algeria;126 259;368
-Angola;240 000;
 Argentina;931 472;2 430
 Australia;245 935;47 087
 Bangladesh;1 333 866;882 091
@@ -17,7 +16,6 @@ France;574 358;258 435
 Germany;285 668;44 685
 Ghana;392 274;1 154
 Greece;92 738;106 208
-Greenland;216 302;
 Hong Kong;161 964;4 130
 Iceland;1 661 031;8 256
 India;3 481 136;2 837 751
@@ -31,7 +29,6 @@ Latvia;150 618;542
 Lithuania;139 785;2 013
 Madagascar;136 400;8 500
 Malaysia;1 214 183;175 834
-Mauritania;247 577;
 Mexico;1 304 830;117 514
 Morocco;932 704;2 257
 Myanmar;1 742 956;474 510
@@ -45,7 +42,6 @@ Oman;150 571;173
 Other;9 685 851;786 993
 Pakistan;434 473;80 622
 Panama;214 737;8 019
-Papua New Guinea;250 280;
 People's Republic of China;17 053 191;32 414 084
 Peru;9 388 662;27 468
 Philippines;2 246 352;557 251
@@ -54,7 +50,6 @@ Portugal;211 757;6 485
 Russian Federation;3 190 946;114 752
 Senegal;405 070;193
 Seychelles;106 555;772
-Sierra Leone;145 993;
 South Africa;817 608;3 142
 South Korea;1 639 069;436 232
 Spain;848 803;221 927
@@ -73,4 +68,3 @@ USA;4 888 621;471 958
 Vanuatu;151 079;1
 Venezuela;470 000;22 210
 Vietnam;1 929 900;1 437 300
-Yemen;263 000;
