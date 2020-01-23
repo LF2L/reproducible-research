@@ -43,9 +43,6 @@ produced based off the data given on the Wikipedia page.
 
 ```{r ex1}
 
-
-
-
 ```
 
 #### Exercise 2: 
