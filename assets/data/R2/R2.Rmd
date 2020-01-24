@@ -73,10 +73,22 @@ attack.
 
 ## Exercises
 
-Here the code for reading the data
+- First element to do in data analysis is to `setup`  the libraries that we need
+
+````markdown
+`r ''````{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+```
+````
+
+
+
+- Here the code for reading the data
 ````markdown
 `r ''````{r Data, echo = FALSE}
-Pokemon = read_csv("data/Pokemon.csv") # Reading the data
+Pokemon = read_csv("Pokemon.csv") # Reading the data
 ```
 ````
 

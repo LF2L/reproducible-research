@@ -1734,7 +1734,17 @@ div.tocify {
 </div>
 <div id="exercises" class="section level2">
 <h2>Exercises</h2>
-<p>Here the code for reading the data</p>
+<ul>
+<li>First element to do in data analysis is to <code>setup</code> the libraries that we need</li>
+</ul>
+<pre class="markdown"><code>```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+```</code></pre>
+<ul>
+<li>Here the code for reading the data</li>
+</ul>
 <pre class="markdown"><code>```{r Data, echo = FALSE}
 Pokemon = read_csv(&quot;Pokemon.csv&quot;) # Reading the data
 ```</code></pre>
