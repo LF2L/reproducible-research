@@ -81,14 +81,14 @@ There are two major functions in ggplot2 package: **qplot()** and **ggplot()** f
 
 # Thing to do for ARCHE
 
-*Follow the proposed tutorials using your own *:
+*Follow the proposed tutorials using your own*:
 
 ## About R
 - [R (English)](http://r-statistics.co/R-Tutorial.html)
-- [R (In french)](https://larmarange.github.io/analyse-R/premier-contact.html)
+- [R (In french)](https://larmarange.github.io/analyse-R/premier-contact.html). It's reccomended to do the tutorials
+    +  Manipulation section: [Intro](https://larmarange.github.io/analyse-R/premier-contact.html) to : [**Analysis**](https://larmarange.github.io/analyse-R/manipuler-les-donnees-avec-dplyr.html)
 
-
-  - Basesd on these tutorials on R, Go to the Assigment 1
+- Bases on these tutorials on R, Go to the Assigment 1 for ARCHE.
 
 
 
@@ -99,8 +99,7 @@ There are two major functions in ggplot2 package: **qplot()** and **ggplot()** f
 - [ggplot2 Tutorial 2 - Theme](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part2-Customizing-Theme-With-R-Code.html)
 
 
-*Make an html document presenting based on the tutorials: *
-- 
+- Bases on these tutorials on R, Go to the Assigment 2s for ARCHE.
 
 
 
