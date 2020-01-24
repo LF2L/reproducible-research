@@ -17,14 +17,19 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r load-packages, message=FALSE}
 library(tidyverse)
 library(nycflights13)
+
 ```
 
 ## Questions 
 
+
+
+
 ### Question 1
 
-
 **What are the ten most common destinations for flights from NYC airports in 2013? Make a table that lists these in descending order and shows the number of fligts heading to each airport.**
+
+The dataset to analyse is `flights`.
 
 ```{r, include=FALSE}
 flights %>%
@@ -36,7 +41,14 @@ flights %>%
 
 ### Question 2
 
+
+
 **What was the mean temperature at the origin airport on the day with the highest departure delay? Your answer should include the name of origin airport, the date with the highest departure delay, and the mean temperature on that day.**
+
+
+The dataset is `weather`.
+
+
 
 ```{r include=FALSE}
 flights %>%
