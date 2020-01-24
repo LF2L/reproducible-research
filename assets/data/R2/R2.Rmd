@@ -135,9 +135,11 @@ Pokemon %>%
          title = "Pre-evolution weaker attack of the Pokémon",
          subtitle = "by species") +
     theme_minimal()
+
+
 ```
 
-![recreate](img/recreate.png)
+
 
 
 - Pick a numerical and a categorical variable, and construct side-by-side box 
