@@ -85,8 +85,21 @@ There are two major functions in ggplot2 package: **qplot()** and **ggplot()** f
 
 ## About R
 - [R (English)](http://r-statistics.co/R-Tutorial.html)
+
 - [R (In french)](https://larmarange.github.io/analyse-R/premier-contact.html). It's reccomended to do the tutorials
-    +  Manipulation section: [Intro](https://larmarange.github.io/analyse-R/premier-contact.html) to : [**Analysis**](https://larmarange.github.io/analyse-R/manipuler-les-donnees-avec-dplyr.html)
+    +  [Intro](https://larmarange.github.io/analyse-R/premier-contact.html)
+    + [Premier travail avec des données](https://larmarange.github.io/analyse-R/premier-travail-avec-les-donnees.html)
+    + [Vecteurs, indexation et assignation](https://larmarange.github.io/analyse-R/vecteurs-indexation-et-assignation.html)
+    + [Facteurs et vecteurs labellisés](https://larmarange.github.io/analyse-R/facteurs-et-vecteurs-labellises.html)
+    + [Import de données](https://larmarange.github.io/analyse-R/import-de-donnees.html)
+    + [Visualiser ses données](https://larmarange.github.io/analyse-R/visualiser-ses-donnees.html)
+    + [Recodage de variables](https://larmarange.github.io/analyse-R/recodage.html)
+    + [Manipuler les données avec dplyr
+](https://larmarange.github.io/analyse-R/manipuler-les-donnees-avec-dplyr.html)
+
+
+
+
 
 - Bases on these tutorials on R, Go to the Assigment 1 for ARCHE.
 
