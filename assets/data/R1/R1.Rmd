@@ -1,0 +1,63 @@
+---
+title: "Test dplyr"
+output: 
+  html_document: 
+    fig_height: 4
+    fig_width: 7
+---
+
+```{r setup, include = FALSE}
+# set the echo option to FALSE to see how the document looks with the code suppressed
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Load packages
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+library(nycflights13)
+```
+
+## Questions 
+
+### Question 1
+
+
+**What are the ten most common destinations for flights from NYC airports in 2013? Make a table that lists these in descending order and shows the number of fligts heading to each airport.**
+
+```{r, include=FALSE}
+flights %>%
+  count(dest) %>%
+  arrange(desc(n)) %>%
+  slice(1:10)
+```
+
+
+### Question 2
+
+**What was the mean temperature at the origin airport on the day with the highest departure delay? Your answer should include the name of origin airport, the date with the highest departure delay, and the mean temperature on that day.**
+
+```{r include=FALSE}
+flights %>%
+  arrange(desc(dep_delay)) %>%
+  slice(1) %>%
+  select(dep_delay, month, day, origin)
+
+#The highest departure delay of 1301 minutes (approx 21.7 hours) was on a flight departing from JFK on Jan 9.
+
+
+
+weather %>%
+  filter(month == 1, day == 9, origin == "JFK") %>%
+  summarise(mean_temp = mean(temp))
+
+#The average temperature on this day was 40.835 F.
+```
+
+ 
+
+
+
+
+

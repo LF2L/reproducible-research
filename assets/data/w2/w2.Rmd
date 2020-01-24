@@ -1,0 +1,491 @@
+---
+title: "This is a First Reproducible Document"
+author:
+  - Fabio CRUZ
+  - Giovanny ARBELAEZ
+  - Mauricio Camargo
+output: html_document
+permalink: /workshop-3/
+---
+
+```{r setup, include=FALSE}
+library(yaml)
+library(markdown)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+# Instructions
+
+The main goal of this template is to explore most of the possibilities that we can do with RMarkdown.
+The main idea is to copy page the fragments of that are highlighted.
+Copy each one at the time, compile every time the document with the button `Knit` to see what happens.
+
+
+So let's go on:
+
+
+
+# Exploring the potentialities
+
+## YAML Section
+The YAML section is the text that you find between the `---` in the document.
+
+***
+
+The initial options are:
+
+```yaml
+---
+title: "First Reproducible Document"
+output: html_document
+---
+```
+This gives the *Title* of the document, and the type of document as a results is a site web `Html`.
+
+
+***
+
+
+Now, let's put **Date**, and the compile with `Knit` button:
+
+```yaml
+---
+title: "First Reproducible Document"
+date: "May 1, 2015"
+author:
+  - Student 1
+  - Student 2
+  - Student 3
+output: html_document
+---
+```
+
+***
+
+
+Put the **Authors** of the document:
+
+```yaml
+---
+title: "First Reproducible Document"
+author:
+  - Student 1
+  - Student 2
+  - Student 3
+output: html_document
+---
+```
+Now, given this initial `YAML` introduction,
+we'll write in `Markdown` style.
+
+***
+
+## Writing in Markdown
+
+The first element is write the titles:
+Put these elemnts in your document
+
+```markdown
+# This is a title
+## Sub-Title
+### Subsub-Title
+#### Sub.... Title
+##### Sub.......Title
+###### Sub.........Title
+```
+
+So, put the `YMLA` section **And** the **Title as follows:
+
+
+```yaml
+---
+title: "First Reproducible Document"
+date: "May 1, 2015"
+author:
+  - Student 1
+  - Student 2
+  - Student 3
+output: html_document
+---
+
+# This is a title
+## Sub-Title
+### Subsub-Title
+#### Sub.... Title
+##### Sub.......Title
+###### Sub.........Title
+```
+
+***
+
+Here we can add some types of text for each title.
+
+```markdown
+### Emphasis
+
+- Emphasis, aka italics, with *asterisks* or _underscores_.
+
+- Strong emphasis, aka bold, with **asterisks** or __underscores__.
+
+- Combined emphasis with **asterisks and _underscores_**.
+
+- Strikethrough uses two tildes. ~~Scratch this.~~
+
+```
+***
+Here we can have *lists*:
+
+```markdown
+### Lists
+
+1. First ordered list item
+2. Another item
+  * Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+  1. Ordered sub-list
+4. And another item.
+
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
+
+```
+
+***
+*Links*:
+
+```markdown
+
+**These are inline Links:**
+
+- [I'm an inline-style link](https://www.google.com)
+
+- [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
+**References links:**
+
+- [I'm a reference-style link][Arbitrary case-insensitive reference text]
+
+- [I'm a relative reference to a repository file](../blob/master/LICENSE)
+
+- [You can use numbers for reference-style link definitions][1]
+
+- Or leave it empty and use the [link text itself].
+
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
+
+```
+***
+*Images*:
+
+```markdown
+
+**Inline-style:** 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+**Reference-style:** 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
+```
+
+
+
+***
+
+*Tables*:
+
+```markdown
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+```
+You can generate tables using the [Markdown generato](https://www.tablesgenerator.com/markdown_tables).
+
+***
+
+ And some especial elements to highligth some code:
+ 
+```markdown
+**Inline** --> `code` has `back-ticks around` it.
+```
+ 
+Or to do blockquotes
+
+```markdown
+> This is a Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+```
+
+***
+
+Let's explore now,  some additional elements to the `Html` documents. We'll put a Table of content `toc`:
+
+```yaml
+---
+title: "First Reproducible Document"
+date: "May 1, 2015"
+author:
+  - Student 1
+  - Student 2
+  - Student 3
+output:
+  html_document:
+    toc: true
+---
+````
+
+**Attention to the indentation when you put the `html` options.
+
+***
+
+Include the number section:
+
+```yaml
+---
+title: "First Reproducible Document"
+date: "May 1, 2015"
+author:
+  - Student 1
+  - Student 2
+  - Student 3
+output:
+  html_document:
+    toc: true
+    toc_float: true    
+    number_sections: true
+---
+````
+
+We can include some `themes`to change the aspects: 
+
+---
+title: "First Reproducible Document"
+date: "May 1, 2015"
+author:
+  - Student 1
+  - Student 2
+  - Student 3
+output:
+  html_document:
+    toc: true
+    toc_float: true    
+    number_sections: true
+    toc_float: true    
+    number_sections: true
+    theme: united
+    highligth: tango
+---
+
+[You can see some styles in this link](https://bookdown.org/yihui/rmarkdown/html-document.html#appearance-and-style)
+
+
+***
+
+## Different Outputs
+
+Ok, once we have some text in the document, we can explore the different `Outputs` that we can obtain.
+
+There are two mainly
+
+- **Documents**
+- **Presentations**
+
+We'll produce the `Html` and a `pdf document`
+
+You can see that the `#` is used to 'comment' the lines concerning the `Html`
+
+
+```yaml
+---
+title: "First Reproducible Document"
+date: "May 1, 2015"
+author:
+  - Student 1
+  - Student 2
+  - Student 3
+#output: 
+#  html_document:
+#    toc: true
+#    toc_float: true    
+#    number_sections: true
+#    theme: united
+#    highligth: tango
+output: pdf_document
+---
+```
+
+**Attention: It`s possible that inline figures do not work because you need the `.jpg` on the folder ---> 
+
+***
+
+Or you can made `word` documents.
+
+```yaml
+---
+title: "First Reproducible Document"
+date: "May 1, 2015"
+author:
+  - Student 1
+  - Student 2
+  - Student 3
+#output: 
+#  html_document:
+#    toc: true
+#    toc_float: true    
+#    number_sections: true
+#    theme: united
+#    highligth: tango
+output: word_document
+---
+```
+
+
+***
+
+Concerning presentations, you can create presentations as follow:
+
+```yaml
+---
+title: "First Reproducible Document"
+date: "May 1, 2015"
+author:
+  - Student 1
+  - Student 2
+  - Student 3
+#output: 
+#  html_document:
+#    toc: true
+#    toc_float: true    
+#    number_sections: true
+#    theme: united
+#    highligth: tango
+#output: word_document
+output: ioslides_presentation
+---
+
+# In the morning
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Breakfast
+
+- Eat eggs
+- Drink coffee
+
+# In the evening
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+
+---
+
+```{r, cars, fig.cap="A scatterplot.", echo=FALSE}
+plot(cars)
+```
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
+
+
+```
+
+
+***
+
+Or event, `pdf` Presentations:
+
+
+```yaml
+---
+title: "First Reproducible Document"
+date: "May 1, 2015"
+author:
+  - Student 1
+  - Student 2
+  - Student 3
+#output: 
+#  html_document:
+#    toc: true
+#    toc_float: true    
+#    number_sections: true
+#    theme: united
+#    highligth: tango
+#output: word_document
+output: beamer_presentation
+---
+
+# In the morning
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Breakfast
+
+- Eat eggs
+- Drink coffee
+
+# In the evening
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+
+---
+
+```{r, otro, fig.cap="A scatterplot.", echo=FALSE}
+plot(cars)
+```
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
+
+
+```
+
+
+
+
+
+Ok, good so far.  Go for a Coffe `r emo::ji("grinning")`.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---

@@ -19,9 +19,9 @@ Workshop:
       - title: "Getting started"
         url: /workshop-1/
       - title: "Understand the basics"
-        url: /workshop-2/  
-#      - title: "Create an article"
-#        url: /workshop-3/  
+        url: /w2.html 
+      - title: "Exploring data"
+        url: /w3.html  
       - title: "Writing the article"
         url: /workshop-4/          
       - title: "Helping source"
